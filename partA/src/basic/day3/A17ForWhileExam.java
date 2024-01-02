@@ -20,11 +20,16 @@ public class A17ForWhileExam {
         System.out.println("");
     }
 
+
+    int count=0;
         // // 위의 for문을 while문으로 바꿔서 출력
     
-
-    
-
+  for(int i=0; i<message.length();i++) {
+        char temp=message.charAt(i);
+   if (temp=='o') {
+        count++;
+   } 
+  }     System.out.println("소문자 o의 개수는"+count);
 
 
             }
